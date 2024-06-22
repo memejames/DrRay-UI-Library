@@ -1311,7 +1311,7 @@ function UILIB:Load(name, img, direction)
 	if img then
 		parent.MainBar.Logo.Image = img
 	elseif img == "Default" then
-
+                parent.MainBar.Logo.Image = 14500306259
 	else
 		parent.MainBar.Logo.Image = ""
 		end
